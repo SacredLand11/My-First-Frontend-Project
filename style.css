@@ -29,6 +29,12 @@ ul {
     list-style-type: none;
 }
 
+section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
 .img-fluid{
     max-width: 256px;
     height: auto;
@@ -157,10 +163,7 @@ hr.star-dark{
 /*Portfolio*/
 
 #portfolio{
-    height: 600px;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    text-align: center;
+
 }
 
 #portfolio h2{
@@ -187,6 +190,7 @@ hr.star-dark{
 
 .portfolio-item img{
     display: block;
+    border-radius: 13px;
 }
 
 .img-overlay{
@@ -211,4 +215,36 @@ hr.star-dark{
 
 .portfolio-item:hover .img-overlay{
     opacity: 0.8;
+    border-radius: 13px;
+}
+
+#about{
+    background-color: #1abc9b;
+    color: #fff;
+}
+
+#about h2{
+    font-size: 4.8rem;
+}
+
+#about-text{
+    text-align: left;
+}
+
+#about-text .left{
+    float: left;
+    width: 50%;
+    padding-right: 2rem;
+    padding-left: 23rem;
+}
+
+#about-text .right{
+    float: right;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 23rem;
+}
+
+#about-text .text{
+    font-size: 20px;
 }
